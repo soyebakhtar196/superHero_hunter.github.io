@@ -1,0 +1,59 @@
+/* navbar */
+.navbar{
+    background-color: rgba(109, 129, 231, 0.289);
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: 1%;
+}
+.super-hero-hunter-logo{
+    margin-left: 1%;
+}
+.nav-search-button{
+    margin-right: 1%;
+}
+
+/* SuperHero container */
+.superhero-container{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+div>img{
+    height: 400px;
+}
+.card{
+    position: relative;
+}
+.card .card-body{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    padding: 1rem;
+    /* max-height: 100%; */
+    transform: translateY(101%);
+    opacity: 0;
+    transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+    color: black;
+
+}
+
+.card:hover .card-body{
+    transform: translateY(0);
+    opacity: 1;
+}
+.container-heart{
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.container-heart i{
+    color: red;
+    font-size: 20px;
+}

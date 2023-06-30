@@ -1,0 +1,1 @@
+const md5 = CryptoJS.MD5;
